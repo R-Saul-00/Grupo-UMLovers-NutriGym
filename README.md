@@ -94,15 +94,13 @@ El proyecto contiene **tres puntos de entrada principales** que simulan distinto
         ```bash
         java -cp src nutrigym.modelo.SimularIniciarSesion
         ```
-        
-        *(Te pedirá un correo o usuario y contraseña para verificar si existe una cuenta.)*
+        *(Te pedirá un correo o usuario y contraseña para verificar si existe una cuenta.)*
         
 > **Simular Gestión de Dieta:**
         ```bash
         java -cp src nutrigym.modelo.SimularCrearDieta
         ```
-        
-        *(Verificará tu usuario y te permitirá gestionar una dieta, agregar alimentos y ver cálculos.)*
+        *(Verificará tu usuario y te permitirá gestionar una dieta, agregar alimentos y ver cálculos.)*
 
 4.  **Interacción por Consola:**
     Una vez que inicies cualquiera de las aplicaciones, sigue las instrucciones que aparecerán en la terminal, utilizando el teclado para ingresar la información solicitada.
