@@ -18,115 +18,62 @@
 
 ---
 
+Este proyecto **NutriGym** simula funcionalidades clave de una aplicación de gestión de usuarios y dietas, operando como una base de datos en memoria para propósitos de demostración. Su objetivo es modelar procesos como el registro de usuarios, el inicio de sesión y la gestión básica de dietas personalizadas.
 
+---
+### Módulos Implementados:
 
-Este proyecto \*\*NutriGym\*\* simula funcionalidades clave de una aplicación de gestión de usuarios y dietas, operando como una base de datos en memoria para propósitos de demostración. Su objetivo es modelar procesos como el registro de usuarios, el inicio de sesión y la gestión básica de dietas personalizadas.
-
-
+* **Simulación de Base de Datos de Usuarios:** Maneja una lista de usuarios registrados por defecto. Permite verificar la existencia de cuentas por correo o usuario. La clase principal es `SimularBDUsuarios`.
+* **Simulación de Inicio de Sesión:** Modela el proceso de un intento de sesión. Verifica la existencia del usuario o correo, luego valida la contraseña y, si es exitoso, muestra los datos del usuario simulando una vista de perfil. La clase `SimularIniciarSesion` contiene el método `main` y utiliza la clase `Usuario`.
+* **Simulación de Registro de Nueva Cuenta:** Permite crear nuevas cuentas. Solicita datos como correo electrónico, contraseña y nombre de usuario, validando que no estén duplicados. Luego pide información adicional como nombre público, fecha de nacimiento, peso, altura, sexo (con validación para "hombre" o "mujer") y región/país (mostrando una lista disponible). La clase principal es `SimularRegistrarUsuario` y se apoya en las clases `ListaPais` y `ListaGenero`.
+* **Simulación de Base de Datos de Alimentos:** Utiliza las clases `Alimento` para crear objetos alimento y `ListaAlimentos` para mantener una lista de estos. La clase `AlimentosPorPais` permite filtrar alimentos por región.
+* **Simulación de Gestión de Dieta:** Implementa el caso de uso "gestionar dieta". Primero verifica si el usuario está registrado y luego ofrece opciones como agregar, borrar y ver alimentos en la dieta, incluyendo cálculos de calorías. Muestra la lista de alimentos filtrada por la región del usuario. La clase principal es `SimularCrearDieta`.
 
 ---
 
+### Tecnologías Utilizadas:
 
-
-\### Módulos Implementados:
-
-
-
-\* \*\*Simulación de Base de Datos de Usuarios:\*\* Maneja una lista de usuarios registrados por defecto. Permite verificar la existencia de cuentas por correo o usuario. La clase principal es `SimularBDUsuarios`.
-
-\* \*\*Simulación de Inicio de Sesión:\*\* Modela el proceso de un intento de sesión. Verifica la existencia del usuario o correo, luego valida la contraseña y, si es exitoso, muestra los datos del usuario simulando una vista de perfil. La clase `SimularIniciarSesion` contiene el método `main` y utiliza la clase `Usuario`.
-
-\* \*\*Simulación de Registro de Nueva Cuenta:\*\* Permite crear nuevas cuentas. Solicita datos como correo electrónico, contraseña y nombre de usuario, validando que no estén duplicados. Luego pide información adicional como nombre público, fecha de nacimiento, peso, altura, sexo (con validación para "hombre" o "mujer") y región/país (mostrando una lista disponible). La clase principal es `SimularRegistrarUsuario` y se apoya en las clases `ListaPais` y `ListaGenero`.
-
-\* \*\*Simulación de Base de Datos de Alimentos:\*\* Utiliza las clases `Alimento` para crear objetos alimento y `ListaAlimentos` para mantener una lista de estos. La clase `AlimentosPorPais` permite filtrar alimentos por región.
-
-\* \*\*Simulación de Gestión de Dieta:\*\* Implementa el caso de uso "gestionar dieta". Primero verifica si el usuario está registrado y luego ofrece opciones como agregar, borrar y ver alimentos en la dieta, incluyendo cálculos de calorías. Muestra la lista de alimentos filtrada por la región del usuario. La clase principal es `SimularCrearDieta`.
-
-
+* **Lenguaje de Programación:** Java JDK 23
+* **Entorno de Desarrollo y Compilación:** Eclipse IDE
+* **Sistema Operativo de Desarrollo:** Windows (pero diseñado para ser compatible con entornos Linux como opensuse - 12)
 
 ---
 
-
-
-\### Tecnologías Utilizadas:
-
-
-
-\* \*\*Lenguaje de Programación:\*\* Java JDK 23
-
-\* \*\*Entorno de Desarrollo y Compilación:\*\* Eclipse IDE
-
-\* \*\*Sistema Operativo de Desarrollo:\*\* Windows (pero diseñado para ser compatible con entornos Linux como opensuse - 12)
-
-
-
----
-
-
-
-\### Requisitos de Ejecución:
-
-
+### Requisitos de Ejecución:
 
 Para compilar y ejecutar este proyecto, solo necesitas tener instalado:
-
-\* \*\*Java Development Kit (JDK) versión 23\*\* o superior.
-
-
+* **Java Development Kit (JDK) versión 23** o superior.
 
 ---
 
 ### Estructura del Proyecto:
-
 .
-
 ├── .classpath
-
 ├── .gitignore
-
 ├── .project
-
 ├── README.md
-
 └── src/
+    └── nutrigym/
+        └── modelo/
+          ├── Alimento.java
+          ├── AlimentosPorPais.java
+          ├── ListaAlimentos.java
+          ├── ListaGenero.java
+          ├── ListaPais.java
+          ├── SimulaBDUsuarios.java
+          ├── SimularCrearDieta.java
+          ├── SimularIniciarSesion.java
+          ├── SimularRegistrarUsuario.java
+          └── Usuario.java
+-         
+---
 
-└── nutrigym/
+### Pasos para la Ejecución:
 
-└── modelo/
+El proyecto contiene **tres puntos de entrada principales** que simulan distintos casos de uso. Puedes ejecutar cada uno de ellos de forma independiente.
 
-├── Alimento.java
-
-├── AlimentosPorPais.java
-
-├── ListaAlimentos.java
-
-├── ListaGenero.java
-
-├── ListaPais.java
-
-├── SimulaBDUsuarios.java
-
-├── SimularCrearDieta.java
-
-├── SimularIniciarSesion.java
-
-├── SimularRegistrarUsuario.java
-
-## └── Usuario.java
-
-
-
-\### Pasos para la Ejecución:
-
-
-
-El proyecto contiene \*\*tres puntos de entrada principales\*\* que simulan distintos casos de uso. Puedes ejecutar cada uno de ellos de forma independiente.
-
-
-
-1\.  \*\*Obtener el Proyecto:\*\*
-
-    Descarga el código fuente desde el repositorio en el siguiente enlace: \*\*\[ENLACE\_A\_TU\_REPOSITORIO\_GITHUB]\*\*. Una vez descargado, descomprime el archivo si es necesario y navega a la carpeta raíz del proyecto.
+1.  **Obtener el Proyecto:**
+    Descarga el código fuente desde el repositorio en el siguiente enlace: **[ENLACE\_A\_TU\_REPOSITORIO\_GITHUB]**. Una vez descargado, descomprime el archivo si es necesario y navega a la carpeta raíz del proyecto.
 
 
 
