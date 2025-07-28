@@ -110,9 +110,8 @@ El proyecto contiene **tres puntos de entrada principales** que simulan distinto
 > 
 >         ```bash
 >         java -cp src nutrigym.modelo.InterfazIniciarSesion.java
->         ```
 > 
->         ```bash
+>         bash
 >         java -cp src nutrigym.modelo.InterfazRegistrarUsuario.java
 >         ```
 
