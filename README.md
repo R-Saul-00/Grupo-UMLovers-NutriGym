@@ -1,6 +1,6 @@
 # Grupo-UMLovers
 
-* Equipo:
+### Equipo:
 
 > [Gabriel Paredes Sipe](https://github.com/gabrielps0306 "Gabriel Paredes Sipe")
 
@@ -82,8 +82,8 @@ El proyecto contiene **tres puntos de entrada principales** que simulan distinto
 
 3.  **Ejecutar las Aplicaciones Principales (Selecciona una):**
     Una vez compilado, puedes ejecutar la simulación que desees desde la misma carpeta raíz del proyecto. Todas las interacciones se realizan por consola.
-    
-    > **Simular Registro de Nueva Cuenta:**
+
+    > **Simular Registro de Nueva Cuenta:**
         ```bash
         java -cp src nutrigym.modelo.SimularRegistrarUsuario
         ```
