@@ -108,12 +108,12 @@ El proyecto contiene **tres puntos de entrada principales** que simulan distinto
 
 > **Simular Inicio de sesión y Registro de nueva cuenta a travez de una interfas:**
 >         ```bash
-        java -cp src nutrigym.modelo.InterfazIniciarSesion.java
-        ```
+>         java -cp src nutrigym.modelo.InterfazIniciarSesion.java
+>         ```
 > 
 >         ```bash
-        java -cp src nutrigym.modelo.InterfazRegistrarUsuario.java
-        ```
+>         java -cp src nutrigym.modelo.InterfazRegistrarUsuario.java
+>         ```
 
 > *(Las interfaces son intuitivas.)*
 
