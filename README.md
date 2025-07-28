@@ -74,21 +74,13 @@ El proyecto contiene **tres puntos de entrada principales** que simulan distinto
 1.  **Obtener el Proyecto:**
     Descarga el código fuente desde el repositorio en el siguiente enlace: **(https://github.com/R-Saul-00/Grupo-UMLovers-NutriGym.git)**. Una vez descargado, descomprime el archivo si es necesario y navega a la carpeta raíz del proyecto.
 
-
-
-2\.  \*\*Compilar el Código Fuente:\*\*
-
+2.  **Compilar el Código Fuente:**
     Aunque Eclipse IDE maneja la compilación automáticamente, si necesitas compilar desde la terminal (por ejemplo, en un entorno de servidor o con otras herramientas), abre una terminal en la carpeta raíz del proyecto y ejecuta el siguiente comando:
-
     ```bash
-
     javac src/nutrigym/modelo/\*.java
-
     ```
 
-
-
-3\.  \*\*Ejecutar las Aplicaciones Principales (Selecciona una):\*\*
+3.  **Ejecutar las Aplicaciones Principales (Selecciona una):**
 
     Una vez compilado, puedes ejecutar la simulación que desees desde la misma carpeta raíz del proyecto. Todas las interacciones se realizan por consola.
 
