@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Scanner;
 
+////Compilar aqui
 public class SimularCrearDieta {
 	private static double tBM;
 	private static int gET;

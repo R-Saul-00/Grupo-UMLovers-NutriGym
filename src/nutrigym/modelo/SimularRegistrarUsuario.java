@@ -2,6 +2,7 @@ package nutrigym.modelo;
 
 import java.util.Scanner;
 
+//Compilar aqui
 public class SimularRegistrarUsuario {
     private final static String FechaActual = "26/07/2025";
 
