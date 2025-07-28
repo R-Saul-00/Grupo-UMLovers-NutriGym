@@ -83,19 +83,20 @@ El proyecto contiene **tres puntos de entrada principales** que simulan distinto
 3.  **Ejecutar las Aplicaciones Principales (Selecciona una):**
     Una vez compilado, puedes ejecutar la simulación que desees desde la misma carpeta raíz del proyecto. Todas las interacciones se realizan por consola.
     
-    * **Simular Registro de Nueva Cuenta:**
+    > **Simular Registro de Nueva Cuenta:**
         ```bash
         java -cp src nutrigym.modelo.SimularRegistrarUsuario
         ```
-        *(Te guiará para ingresar los datos de un nuevo usuario, validando duplicados y formatos.)*
+        
+        *(Te guiará para ingresar los datos de un nuevo usuario, validando duplicados y formatos.)*
 
-    * **Simular Inicio de Sesión:**
+    > **Simular Inicio de Sesión:**
         ```bash
         java -cp src nutrigym.modelo.SimularIniciarSesion
         ```
         *(Te pedirá un correo/usuario y contraseña para verificar si existe una cuenta.)*
 
-    * **Simular Gestión de Dieta:**
+    > **Simular Gestión de Dieta:**
         ```bash
         java -cp src nutrigym.modelo.SimularCrearDieta
         ```
