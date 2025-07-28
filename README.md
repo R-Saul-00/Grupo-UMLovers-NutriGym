@@ -77,86 +77,46 @@ El proyecto contiene **tres puntos de entrada principales** que simulan distinto
 2.  **Compilar el Código Fuente:**
     Aunque Eclipse IDE maneja la compilación automáticamente, si necesitas compilar desde la terminal (por ejemplo, en un entorno de servidor o con otras herramientas), abre una terminal en la carpeta raíz del proyecto y ejecuta el siguiente comando:
     ```bash
-    javac src/nutrigym/modelo/\*.java
+    javac src/nutrigym/modelo/*.java
     ```
 
 3.  **Ejecutar las Aplicaciones Principales (Selecciona una):**
-
     Una vez compilado, puedes ejecutar la simulación que desees desde la misma carpeta raíz del proyecto. Todas las interacciones se realizan por consola.
-
-
-
-    \* \*\*Simular Registro de Nueva Cuenta:\*\*
-
+    * **Simular Registro de Nueva Cuenta:**
         ```bash
-
         java -cp src nutrigym.modelo.SimularRegistrarUsuario
-
         ```
+        *(Te guiará para ingresar los datos de un nuevo usuario, validando duplicados y formatos.)*
 
-        \*(Te guiará para ingresar los datos de un nuevo usuario, validando duplicados y formatos.)\*
-
-
-
-    \* \*\*Simular Inicio de Sesión:\*\*
-
+    * **Simular Inicio de Sesión:**
         ```bash
-
         java -cp src nutrigym.modelo.SimularIniciarSesion
-
         ```
+        *(Te pedirá un correo/usuario y contraseña para verificar si existe una cuenta.)*
 
-        \*(Te pedirá un correo/usuario y contraseña para verificar si existe una cuenta.)\*
-
-
-
-    \* \*\*Simular Gestión de Dieta:\*\*
-
+    * **Simular Gestión de Dieta:**
         ```bash
-
         java -cp src nutrigym.modelo.SimularCrearDieta
-
         ```
+        *(Verificará tu usuario y te permitirá gestionar una dieta, agregar alimentos y ver cálculos.)*
 
-        \*(Verificará tu usuario y te permitirá gestionar una dieta, agregar alimentos y ver cálculos.)\*
-
-
-
-4\.  \*\*Interacción por Consola:\*\*
-
+4.  **Interacción por Consola:**
     Una vez que inicies cualquiera de las aplicaciones, sigue las instrucciones que aparecerán en la terminal, utilizando el teclado para ingresar la información solicitada.
-
-
 
 ---
 
-
-
-\### Repositorio:
-
-
+### Repositorio:
 
 El código fuente completo de este proyecto se encuentra alojado en:
 
-\*\*\[ENLACE\_A\_TU\_REPOSITORIO\_GITHUB]\*\*
-
-\*(\*\*Nota:\*\* Asegúrate de pegar aquí la URL de tu repositorio real.)\*
-
-
+> [UMLovers - NutriGym](https://github.com/R-Saul-00/Grupo-UMLovers-NutriGym.git "UMLovers - NutriGym")
 
 ---
 
+### Limitaciones Conocidas y Funcionalidades No Implementadas:
 
+* Esta es una simulación en memoria; los datos no persisten una vez que la aplicación se cierra.
 
-\### Limitaciones Conocidas y Funcionalidades No Implementadas:
-
-
-
-\* Esta es una simulación en memoria; los datos no persisten una vez que la aplicación se cierra.
-
-\* Las siguientes funcionalidades no han sido implementadas en esta versión: "gestionar rutina", "gestionar entrenamiento", "gestionar notificaciones" y "localizar gimnasio".
-
-
+* Las siguientes funcionalidades no han sido implementadas en esta versión: "gestionar rutina", "gestionar entrenamiento", "gestionar notificaciones" y "localizar gimnasio".
 
 ---
-
