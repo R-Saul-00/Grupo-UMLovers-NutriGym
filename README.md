@@ -49,7 +49,9 @@ Para compilar y ejecutar este proyecto, solo necesitas tener instalado:
 ### Estructura del Proyecto:
 .
 ├── .classpath
+
 ├── .gitignore
+
 ├── .project
 ├── README.md
 └── src/
@@ -65,7 +67,7 @@ Para compilar y ejecutar este proyecto, solo necesitas tener instalado:
           ├── SimularIniciarSesion.java
           ├── SimularRegistrarUsuario.java
           └── Usuario.java
--         
+          
 ---
 
 ### Pasos para la Ejecución:
@@ -73,7 +75,7 @@ Para compilar y ejecutar este proyecto, solo necesitas tener instalado:
 El proyecto contiene **tres puntos de entrada principales** que simulan distintos casos de uso. Puedes ejecutar cada uno de ellos de forma independiente.
 
 1.  **Obtener el Proyecto:**
-    Descarga el código fuente desde el repositorio en el siguiente enlace: **[ENLACE\_A\_TU\_REPOSITORIO\_GITHUB]**. Una vez descargado, descomprime el archivo si es necesario y navega a la carpeta raíz del proyecto.
+    Descarga el código fuente desde el repositorio en el siguiente enlace: **(https://github.com/R-Saul-00/Grupo-UMLovers-NutriGym.git)**. Una vez descargado, descomprime el archivo si es necesario y navega a la carpeta raíz del proyecto.
 
 
 
