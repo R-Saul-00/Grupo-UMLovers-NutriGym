@@ -47,31 +47,24 @@ Para compilar y ejecutar este proyecto, solo necesitas tener instalado:
 ---
 
 ### Estructura del Proyecto:
-.
-├── .classpath
-
-├── .gitignore
-
-├── .project
-
-├── README.md
-
-└── src/
-
-    └── nutrigym/
-    
-        └── modelo/
-          ├── Alimento.java
-          ├── AlimentosPorPais.java
-          ├── ListaAlimentos.java
-          ├── ListaGenero.java
-          ├── ListaPais.java
-          ├── SimulaBDUsuarios.java
-          ├── SimularCrearDieta.java
-          ├── SimularIniciarSesion.java
-          ├── SimularRegistrarUsuario.java
-          └── Usuario.java
-          
+    .
+    ├── .classpath
+    ├── .gitignore
+    ├── .project
+    ├── README.md
+    └── src/
+        └── nutrigym/
+            └── modelo/
+              ├── Alimento.java
+              ├── AlimentosPorPais.java
+              ├── ListaAlimentos.java
+              ├── ListaGenero.java
+              ├── ListaPais.java
+              ├── SimulaBDUsuarios.java
+              ├── SimularCrearDieta.java
+              ├── SimularIniciarSesion.java
+              ├── SimularRegistrarUsuario.java
+              └── Usuario.java   
 ---
 
 ### Pasos para la Ejecución:
