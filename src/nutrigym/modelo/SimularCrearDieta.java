@@ -23,7 +23,7 @@ public class SimularCrearDieta {
         
         SimulaBDUsuarios bdUsuarios = new SimulaBDUsuarios();
         AlimentosPorPais alimentosPorPais = new AlimentosPorPais();
-        
+        //El nombre del usuario ya debe estar registrado en la base de datos (SimulaBDUsuarios)
         Usuario usuario = bdUsuarios.buscarUsuarioPorNombreCorreo("tomi_m");
         String pais = usuario.getRegion();
         String genero = usuario.getSexo();

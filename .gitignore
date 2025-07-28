@@ -1,0 +1,20 @@
+# Archivos y carpetas generados por Eclipse
+.classpath
+.project
+.settings/
+/bin/
+/.metadata/
+*.log
+*.class
+
+# Si usas Maven o Gradle para gestionar dependencias
+target/
+build/
+
+# Archivos de sistema operativo (ej. Windows, macOS)
+Thumbs.db
+.DS_Store
+
+# Archivos de IDEs comunes si alguna vez abres el proyecto en otros
+.idea/
+*.iml
