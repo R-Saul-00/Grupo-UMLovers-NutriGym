@@ -53,9 +53,13 @@ Para compilar y ejecutar este proyecto, solo necesitas tener instalado:
 ├── .gitignore
 
 ├── .project
+
 ├── README.md
+
 └── src/
+
     └── nutrigym/
+    
         └── modelo/
           ├── Alimento.java
           ├── AlimentosPorPais.java
