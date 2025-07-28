@@ -107,6 +107,7 @@ El proyecto contiene **tres puntos de entrada principales** que simulan distinto
 > *(Verificará tu usuario y te permitirá gestionar una dieta, agregar alimentos y ver cálculos.)*
 
 > **Simular Inicio de sesión y Registro de nueva cuenta a travez de una interfas:**
+> 
 >         ```bash
 >         java -cp src nutrigym.modelo.InterfazIniciarSesion.java
 >         ```
