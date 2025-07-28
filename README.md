@@ -1,22 +1,18 @@
 ### Grupo-UMLovers
 
+* Equipo:
 
+> [Gabriel Paredes Sipe](https://github.com/gabrielps0306 "Gabriel Paredes Sipe")
 
-\* Equipo:
+> [Gustavo Montaño Cabrera](https://github.com/Gussxzz "Gustavo Montaño Cabrera")
 
+> [Maicol Ismael Nina Zarate](https://github.com/maicolismael "Maicol Ismael Nina Zarate")
 
+> [Rodrigo Chalco Soliz](https://github.com/RodrigoChalco "Rodrigo Chalco Soliz")
 
-> \\\[Gabriel Paredes Sipe](https://github.com/gabrielps0306 "Gabriel Paredes Sipe")
+> [Rodrigo Saul Zárate Villarroel](https://github.com/R-Saul-00 "Rodrigo Saul Zárate Villarroel")
 
-> \\\[Gustavo Montaño Cabrera](https://github.com/Gussxzz "Gustavo Montaño Cabrera")
-
-> \\\[Maicol Ismael Nina Zarate](https://github.com/maicolismael "Maicol Ismael Nina Zarate")
-
-> \\\[Rodrigo Chalco Soliz](https://github.com/RodrigoChalco "Rodrigo Chalco Soliz")
-
-> \\\[Rodrigo Saul Zárate Villarroel](https://github.com/R-Saul-00 "Rodrigo Saul Zárate Villarroel")
-
-> \\\[Oliver Saul Garcia Guzman](https://github.com/olivergarguz "Oliver Saul Garcia Guzman")
+> [Oliver Saul Garcia Guzman](https://github.com/olivergarguz "Oliver Saul Garcia Guzman")
 
 
 
