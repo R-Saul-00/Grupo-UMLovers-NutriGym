@@ -88,7 +88,7 @@ El proyecto contiene **tres puntos de entrada principales** que simulan distinto
         java -cp src nutrigym.modelo.SimularRegistrarUsuario
         ```
 
-> *(Te guiará para ingresar los datos de un nuevo usuario, validando duplicados y formatos.)*
+*(Te guiará para ingresar los datos de un nuevo usuario, validando duplicados y formatos.)*
  
 >   **Simular Inicio de Sesión:**
         ```bash
